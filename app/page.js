@@ -1,0 +1,2 @@
+import Nav from"../components/Nav";import Hero from"../components/Hero";import Projects from"../components/Projects";import About from"../components/About";import Services from"../components/Services";import Contact from"../components/Contact";
+export default function Home(){return <main><Nav/><Hero/><Projects/><About/><Services/><Contact/><footer className="shell"><span>Florencia Giusti © 2026</span><span>Built with Next.js · and a suspicious amount of mate.</span></footer></main>}
