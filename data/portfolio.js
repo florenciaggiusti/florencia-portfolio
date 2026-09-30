@@ -1,7 +1,24 @@
 export const projects=[
-{n:"01",kind:"PROYECTO PROPIO · EN DESARROLLO",title:"Marketplace de oficios",text:"Una plataforma para conectar personas que necesitan resolver un trabajo con profesionales que pueden hacerlo.",stack:["Next.js","React","TypeScript","Tailwind"],tone:"plum",status:"En desarrollo"},
-{n:"02",kind:"PROYECTO CONCEPTUAL · PRÓXIMAMENTE",title:"Proyecto web 02",text:"Este espacio está preparado para una de las webs de muestra que voy a desarrollar para el portfolio.",stack:["Web","Responsive"],tone:"sand",status:"Próximamente"},
-{n:"03",kind:"PROYECTO CONCEPTUAL · PRÓXIMAMENTE",title:"Proyecto web 03",text:"Otro proyecto completo, con identidad propia, que se va a poder visitar desde acá.",stack:["Web","UI"],tone:"ink",status:"Próximamente"}
+{
+  n:"01",
+  kind:"PROYECTO CONCEPTUAL · 2026",
+  title:"Lumière",
+  text:"Sitio web para un estudio de estética, pensado para orientar a cada persona según lo que quiere trabajar y llevar la consulta hasta la reserva.",
+  stack:["Next.js","React","CSS","Responsive"],
+  tone:"lumiere",
+  status:"Publicado",
+  liveUrl:"https://lumiere-v2-scroll-fix.vercel.app",
+  featured:true
+},
+{
+  n:"02",
+  kind:"PROYECTO PROPIO · EN DESARROLLO",
+  title:"Marketplace de oficios",
+  text:"Una plataforma para conectar personas que necesitan resolver un trabajo con profesionales que pueden hacerlo.",
+  stack:["Next.js","React","TypeScript","Tailwind"],
+  tone:"plum",
+  status:"En desarrollo"
+}
 ];
 export const services=[
 ["Sitios web","Diseño y desarrollo sitios para negocios, profesionales y proyectos que necesitan una presencia propia en la web."],
